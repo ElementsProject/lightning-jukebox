@@ -49,7 +49,7 @@ plays music from YouTube.
 
    # with a specific video id
    $ lightning-cli pay `curl http://localhost:6100/invoice \
-                        -d video=https://www.youtube.com/watch?v=IDiZG-eAk30'
+                        -d video=https://www.youtube.com/watch?v=IDiZG-eAk30`
    ```
 
 ## CLI options
