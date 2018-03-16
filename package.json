@@ -47,7 +47,8 @@
     "fmtbtc": "0.0.3",
     "jquery": "^3.3.1",
     "pugify": "^2.2.0",
-    "qrcode": "^1.2.0"
+    "qrcode": "^1.2.0",
+    "reconnecting-websocket": "^3.2.2"
   },
   "browserify": {
     "transform": [

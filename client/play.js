@@ -1,4 +1,6 @@
-new WebSocket(`ws://${location.host}/ws`).addEventListener('message', msg => {
+import RWebSocket from 'reconnecting-websocket'
+
+new RWebSocket(`ws://${location.host}/ws`).addEventListener('message', msg => {
   const [ type, video ] = msg.data.split(':', 2)
   console.log(`playing by ${type}: ${video}`)
 
