@@ -1,0 +1,21 @@
+doctype html
+
+html.h-100
+  title= settings.title
+  meta(charset='utf-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  link(rel='stylesheet', href='bootstrap.min.css')
+  script(src='pay.js')
+
+  body.h-100
+    .container.d-flex.h-100: .justify-content-center.align-self-center.text-center.mx-auto
+
+      h3.mb-4 Pay #{amount} #{currency} to play your music
+
+      form.pay
+        input.form-control.form-control-lg(name='video', type='text', autofocus, required, autocomplete='off', placeholder='YouTube video URL or search string')
+
+        button.btn.btn-lg.btn-primary.mt-4(type='submit') Pay &amp; Play
+
+      .mt-4.text-info powered by #[a(href='https://github.com/shesek/lightning-jukebox') Lightning Jukebox]
+

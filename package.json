@@ -1,0 +1,58 @@
+{
+  "name": "lightning-jukebox",
+  "version": "0.0.1",
+  "description": "A Lightning powered Jukebox",
+  "bin": {
+    "jukeboxd": "dist/cli.js"
+  },
+  "scripts": {
+    "start": "babel-node src/cli.js --node-env development",
+    "dist": "./build.sh",
+    "prepublishOnly": "npm run dist"
+  },
+  "files": [
+    "dist/**",
+    "views/**"
+  ],
+  "repository": "https://github.com/shesek/lightning-jukebox.git",
+  "keywords": [
+    "bitcoin",
+    "lightning",
+    "lightning-charge",
+    "jukebox",
+    "micropayments"
+  ],
+  "author": "Nadav Ivgi",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.18.2",
+    "bootswatch": "^4.0.0-beta.3",
+    "express": "^4.16.2",
+    "lightning-charge-client": "^0.1.7",
+    "meow": "^4.0.0",
+    "morgan": "^1.9.0",
+    "only": "0.0.2",
+    "pug": "^2.0.0-rc.4",
+    "uglify-js": "^3.3.15",
+    "ws": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "bootstrap": "^4.0.0",
+    "browserify-middleware": "^8.1.0",
+    "fmtbtc": "0.0.3",
+    "jquery": "^3.3.1",
+    "pugify": "^2.2.0",
+    "qrcode": "^1.2.0"
+  },
+  "browserify": {
+    "transform": [
+      "pugify",
+      "babelify"
+    ]
+  }
+}

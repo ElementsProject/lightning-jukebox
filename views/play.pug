@@ -1,0 +1,19 @@
+- playerUrl = 'https://www.google.com/search?q=site%3Ayoutube.com%2Fwatch+bitcoin+music&as_qdr=m&btnI=Im+Feeling+Lucky'
+
+doctype html
+
+html.h-100
+  title= settings.title
+  meta(charset='utf-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  link(rel='stylesheet', href='bootstrap.min.css')
+  script(src='play.js')
+
+  body.h-100
+    .container.d-flex.h-100: .justify-content-center.align-self-center.text-center.mx-auto
+      //-h1.mb-4= settings.title
+      .d-block.mb-4: a.btn.btn-lg.btn-primary.mx-auto(href=playerUrl, target='_player') Spawn YouTube player
+      .d-block.mb-4: a.btn.btn-lg.btn-secondary.mx-auto(href='pay', target='_blank') Open payment page
+      //-p make sure to allow popups,<br>keep both this page and the popup open,<br>and use the popup to start playing some music.
+
+      p.text-info powered by #[a(href='https://github.com/shesek/lightning-jukebox') Lightning Jukebox]
