@@ -1,5 +1,8 @@
 # Lightning Jukebox
 
+[![npm release](https://img.shields.io/npm/v/lightning-jukebox.svg)](https://www.npmjs.com/package/lightning-charge)
+[![MIT license](https://img.shields.io/github/license/shesek/lightning-jukebox.svg)](https://github.com/shesek/lightning-jukebox/blob/master/LICENSE)
+
 A Lightning powered Jukebox :zap: Pay with Bitcoin to choose your music.
 
 Built with [Lightning Charge](https://github.com/ElementsProject/lightning-charge),
