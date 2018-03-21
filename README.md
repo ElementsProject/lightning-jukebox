@@ -3,10 +3,9 @@
 [![npm release](https://img.shields.io/npm/v/lightning-jukebox.svg)](https://www.npmjs.com/package/lightning-charge)
 [![MIT license](https://img.shields.io/github/license/shesek/lightning-jukebox.svg)](https://github.com/shesek/lightning-jukebox/blob/master/LICENSE)
 
-A Lightning powered Jukebox :zap: Pay with Bitcoin to choose your music.
+A Lightning powered Jukebox :zap:. Pay with Bitcoin to choose music from your YouTube.
 
-Built with [Lightning Charge](https://github.com/ElementsProject/lightning-charge),
-plays music from YouTube.
+Powered by :zap: [Lightning Charge](https://github.com/ElementsProject/lightning-charge) and your YouTube.
 
 ## HOWTO
 
@@ -26,15 +25,14 @@ plays music from YouTube.
 
 3. Navigate to `http://localhost:6100/` on the computer playing the music
    and click `Spawn YouTube player`.
-   This will open a new youtube window in a new tab.
-   *Make sure keep both* the page on `localhost:6100` and the youtube window open.
-   You can use the youtube window to start playing some initial music.
+   This will open a YouTube window in a new tab.
+   *Make sure to keep both* the page on `localhost:6100` and the youtube window open.
+   You can use the YouTube window to start playing some initial music.
 
    <img src="https://i.imgur.com/l9PNsdS.png" width="47%"></img>
 
-4. The payment page (`http://localhost:6100/pay`) allows users to pay for music selection.
-   You can make this page available over the internet, or set it up on a local device near the
-   jukebox (like a tablet).
+4. Make the payment page (`http://localhost:6100/pay`) available over the internet or set it up on a local device, like a tablet, near 
+   the jukebox. The payment page allows users to pay for music selection.
 
    <img src="https://i.imgur.com/H9kFDQW.png" width="47%"></img>
    <img src="https://i.imgur.com/pTZkZ0H.png" width="47%"></img>
@@ -42,7 +40,7 @@ plays music from YouTube.
    Once a payment is made, a push notification will be sent to the player window (via websockets),
    which will open the requested song in the spawned youtube window.
 
-   Payments can also be made directly to the API:
+   Payments can also be made directly to the jukebox API:
 
    ```bash
    # with a search string
