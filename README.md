@@ -1,7 +1,9 @@
 # Lightning Jukebox
 
-[![npm release](https://img.shields.io/npm/v/lightning-jukebox.svg)](https://www.npmjs.com/package/lightning-charge)
+[![npm release](https://img.shields.io/npm/v/lightning-jukebox.svg)](https://www.npmjs.com/package/lightning-jukebox)
 [![MIT license](https://img.shields.io/github/license/shesek/lightning-jukebox.svg)](https://github.com/shesek/lightning-jukebox/blob/master/LICENSE)
+[![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![IRC](https://img.shields.io/badge/chat-on%20freenode-brightgreen.svg)](https://webchat.freenode.net/?channels=lightning-charge)
 
 A Lightning powered Jukebox :zap: Pay with Bitcoin to choose your music.
 
