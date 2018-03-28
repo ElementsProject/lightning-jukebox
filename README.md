@@ -5,9 +5,9 @@
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![IRC](https://img.shields.io/badge/chat-on%20freenode-brightgreen.svg)](https://webchat.freenode.net/?channels=lightning-charge)
 
-A Lightning powered Jukebox :zap:. Pay with Bitcoin to choose music from your YouTube.
+A Lightning powered Jukebox. Pay with Bitcoin to choose your music from YouTube.
 
-Powered by :zap: [Lightning Charge](https://github.com/ElementsProject/lightning-charge) and your YouTube.
+Powered by :zap: [Lightning Charge](https://github.com/ElementsProject/lightning-charge).
 
 ## HOWTO
 
@@ -27,7 +27,7 @@ Powered by :zap: [Lightning Charge](https://github.com/ElementsProject/lightning
 
 3. Navigate to `http://localhost:6100/` on the computer playing the music
    and click `Spawn YouTube player`.
-   This will open a YouTube window in a new tab.
+   This will open a new YouTube window in a new tab.
    *Make sure to keep both* the page on `localhost:6100` and the youtube window open.
    You can use the YouTube window to start playing some initial music.
 
