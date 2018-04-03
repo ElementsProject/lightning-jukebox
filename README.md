@@ -7,7 +7,9 @@
 
 A Lightning powered Jukebox. Pay with Bitcoin to choose your music from YouTube.
 
-Powered by :zap: [Lightning Charge](https://github.com/ElementsProject/lightning-charge).
+[See it in action on YouTube](https://www.youtube.com/watch?v=AgGYpFJsh24)
+
+Powered by :zap: [Lightning Charge](https://github.com/ElementsProject/lightning-charge)
 
 ## HOWTO
 
